@@ -11,7 +11,7 @@ const navbar = () => {
   return (
     <div>
       <nav className="nav">
-        <a href="/">
+        <a href="/homepage">
           <img
             src={require("../../dist/img/logo.png")}
             width="100"
@@ -21,7 +21,7 @@ const navbar = () => {
         </a>
         <ul>
           <li>
-            <NavLink to="/" className="first-nav-item">
+            <NavLink to="/homepage" className="first-nav-item">
               <span className="fas fa-home" />
             </NavLink>
           </li>
@@ -51,7 +51,7 @@ const navbar = () => {
         </a>
       </nav>
       <Switch>
-        <Route path="/" exact component={BackgroundPage} />
+        <Route path="/homepage" exact component={BackgroundPage} />
         <Route path="/about" exact component={About} />
         <Route path="/skills" exact component={Skills} />
         <Route path="/portfolio" exact component={Portfolio} />
