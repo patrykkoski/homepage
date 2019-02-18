@@ -1,0 +1,36 @@
+.skills {
+  width: 100%;
+  height: 100vh;
+  background: rgb(34, 34, 34);
+  margin-left: 65px;
+  width: calc(100% - 65px);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.skills-wraper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  animation-name: showPortfolio;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.tech-description {
+  width: 380px;
+  padding: 10px 0px;
+  text-align: center;
+  color: white;
+}
+.tech-description img{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
