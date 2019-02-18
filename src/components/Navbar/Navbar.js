@@ -21,7 +21,7 @@ const navbar = () => {
         </a>
         <ul>
           <li>
-            <NavLink to="/mainpage" className="first-nav-item">
+            <NavLink to="/" className="first-nav-item">
               <span className="fas fa-home" />
             </NavLink>
           </li>
@@ -51,7 +51,7 @@ const navbar = () => {
         </a>
       </nav>
       <Switch>
-        <Route path="/mainpage" exact component={BackgroundPage} />
+        <Route path="/" exact component={BackgroundPage} />
         <Route path="/about" exact component={About} />
         <Route path="/skills" exact component={Skills} />
         <Route path="/portfolio" exact component={Portfolio} />
