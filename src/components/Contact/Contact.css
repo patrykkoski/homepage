@@ -107,6 +107,9 @@
     animation-delay: 2s;
     animation-fill-mode: forwards;
     opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   @keyframes showPortfolio {
     0% {
@@ -117,20 +120,22 @@
     }
   }
   .contact .contact-wrapper h2 {
-    padding: 20px;
     font-size: 32px;
     color: white;
     padding-left: 0px;
+    margin-bottom: 10px;
   }
   .contact .contact-wrapper h3 {
     color: white;
     font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
   .socials {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 50px;
+    
   }
   .socials a:first-child {
     margin-right: 20px;
