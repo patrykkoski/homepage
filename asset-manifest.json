@@ -1,9 +1,9 @@
 {
-  "main.css": "/homepage/static/css/main.2f2eb1ab.chunk.css",
-  "main.js": "/homepage/static/js/main.e860443e.chunk.js",
-  "main.js.map": "/homepage/static/js/main.e860443e.chunk.js.map",
-  "static/js/1.f32dbaa7.chunk.js": "/homepage/static/js/1.f32dbaa7.chunk.js",
-  "static/js/1.f32dbaa7.chunk.js.map": "/homepage/static/js/1.f32dbaa7.chunk.js.map",
+  "main.css": "/homepage/static/css/main.13f40204.chunk.css",
+  "main.js": "/homepage/static/js/main.40484e0b.chunk.js",
+  "main.js.map": "/homepage/static/js/main.40484e0b.chunk.js.map",
+  "static/js/1.84c28608.chunk.js": "/homepage/static/js/1.84c28608.chunk.js",
+  "static/js/1.84c28608.chunk.js.map": "/homepage/static/js/1.84c28608.chunk.js.map",
   "runtime~main.js": "/homepage/static/js/runtime~main.c9f2de54.js",
   "runtime~main.js.map": "/homepage/static/js/runtime~main.c9f2de54.js.map",
   "static/media/BackgroundPage.css": "/homepage/static/media/bg.faa4bd1d.png",
@@ -12,9 +12,9 @@
   "static/media/test.png": "/homepage/static/media/test.738c1c8f.png",
   "static/media/contact.png": "/homepage/static/media/contact.54133310.png",
   "static/media/li.png": "/homepage/static/media/li.686b5d4a.png",
-  "static/media/about.jpg": "/homepage/static/media/about.869cc21d.jpg",
-  "static/css/main.2f2eb1ab.chunk.css.map": "/homepage/static/css/main.2f2eb1ab.chunk.css.map",
+  "static/media/About.css": "/homepage/static/media/about.869cc21d.jpg",
+  "static/css/main.13f40204.chunk.css.map": "/homepage/static/css/main.13f40204.chunk.css.map",
   "index.html": "/homepage/index.html",
-  "precache-manifest.15dee10ade4404151fc26ca00b6ef609.js": "/homepage/precache-manifest.15dee10ade4404151fc26ca00b6ef609.js",
+  "precache-manifest.f9f96a7435035cd1abfd72d34717bfce.js": "/homepage/precache-manifest.f9f96a7435035cd1abfd72d34717bfce.js",
   "service-worker.js": "/homepage/service-worker.js"
 }
