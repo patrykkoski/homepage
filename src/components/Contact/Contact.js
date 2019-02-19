@@ -7,11 +7,7 @@ const contact = () => {
         <img src={require("../../dist/img/logo.png")} alt="logo" />
         <div className="page-loader" />
       </div>
-      <img
-        className="contact-img"
-        src={require("../../dist/img/contact/contact.png")}
-        alt="contact"
-      />
+      <div className="contact-img"/>
       <div className="contact-wrapper">
         <h2>Contact me</h2>
         <h3>Patryk Koski</h3>
