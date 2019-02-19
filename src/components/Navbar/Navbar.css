@@ -304,10 +304,10 @@
 
   .nav li a::after {
     content: "";
-    font-size: 10px;
+    font-size: 12px;
     position: absolute;
     line-height: 30px;
-    top: 0px;
+    top: 0-2px;
     left: -21px;
     opacity: 0;
     width: 65px;
@@ -323,7 +323,7 @@
     -webkit-transition: 0.5s;
     transition: 0.5s;
     color: #0089c9;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: bold;
   }
   .nav li a:active,
