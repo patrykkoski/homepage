@@ -306,12 +306,12 @@
     content: "";
     font-size: 10px;
     position: absolute;
-    line-height: 25px;
+    line-height: 30px;
     top: 2px;
     left: -21px;
     opacity: 0;
     width: 65px;
-    height: 30px;
+    height: 35px;
     background: #161616;
     text-align: center;
     -webkit-transition: 0.5s;
