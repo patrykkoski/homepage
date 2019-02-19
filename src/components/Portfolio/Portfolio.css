@@ -146,7 +146,7 @@
     transition: 0.5s;
   }
   .portfolio-wrapper a img {
-    width: auto;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     display: block;
