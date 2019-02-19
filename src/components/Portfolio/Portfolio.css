@@ -146,11 +146,11 @@
     transition: 0.5s;
   }
   .portfolio-wrapper a img {
-    width: 70%;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
-
+    max-height: 80%;
     transition: 0.5s;
   }
 }
