@@ -2,20 +2,37 @@ import React from "react";
 import { Route, NavLink, Switch } from "react-router-dom";
 import "./Navbar.css";
 import BackgroundPage from "../BackgroundPage/BackgroundPage";
-import About from '../About/About';
-import Skills from '../Skills/Skills';
-import Portfolio from '../Portfolio/Portfolio';
-import Contact from '../../components/Contact/Contact';
+import About from "../About/About";
+import Skills from "../Skills/Skills";
+import Portfolio from "../Portfolio/Portfolio";
+import Contact from "../../components/Contact/Contact";
 
 const navbar = () => {
   return (
     <div>
-      <nav className="nav">
+      <div className="mobile-nav">
         <a href="/homepage">
           <img
+            src={require("../../dist/img/logo-min.png")}
+            height="35"
+            alt="logo"
+          />
+        </a>
+        <a href="/" className="linked-in-icon-mobile">
+          <span className="fab fa-linkedin" />
+        </a>
+      </div>
+      <nav className="nav">
+        <a href="/homepage">
+          <img className="logo-desktop"
             src={require("../../dist/img/logo.png")}
             width="100"
             height="100"
+            alt="logo"
+          />
+          <img className="logo-medium"
+            src={require("../../dist/img/logo-min.png")}
+            height="35"
             alt="logo"
           />
         </a>
