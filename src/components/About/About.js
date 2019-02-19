@@ -8,11 +8,7 @@ const about = () => {
         <img src={require("../../dist/img/logo.png")} alt="logo" />
         <div className="page-loader" />
       </div>
-      <img
-        className="about-img"
-        src={require("../../dist/img/about/about.jpg")}
-        alt="about"
-      />
+      <div className="about-img" />
       <div className="about-content">
         <h2>ABOUT ME</h2>
         <p>

@@ -1,96 +1,314 @@
-.about {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  background: rgb(34, 34, 34);
-  margin-left: 65px;
-  width: calc(100% - 65px);
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  color: white;
-}
-@keyframes showAbout {
-  0% {
+@media only screen and (min-width: 992px) {
+  .about {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgb(34, 34, 34);
+    margin-left: 65px;
+    width: calc(100% - 65px);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+  }
+  @keyframes showAbout {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .changePageScreen {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgb(34, 34, 34);
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: changeScreen;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  .page-loader {
+    width: 0px;
+    height: 5px;
+    background: #0089c9;
+    animation-name: growLine;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes growLine {
+    0% {
+      width: 0px;
+    }
+    25% {
+      width: 0px;
+    }
+    75% {
+      width: 300px;
+    }
+    100% {
+      width: 300px;
+    }
+  }
+  @keyframes changeScreen {
+    0% {
+      left: -100%;
+    }
+    25% {
+      left: 0%;
+    }
+    75% {
+      left: 0%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+  .about-img {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+    animation-name: showAbout;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    width: 60%;
+    height: 100%;
+    background-image: url("../../dist/img/about/about.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .about-content {
+    width: 40%;
+    animation-name: showAbout;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
     opacity: 0;
   }
-  100% {
-    opacity: 1;
+  .about-content h2 {
+    font-size: 44px;
+    border-bottom: 1px solid #0089c9;
   }
 }
-.changePageScreen {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  z-index: 1;
-  background: rgb(34, 34, 34);
-  left: -100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  animation-name: changeScreen;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-.page-loader{
-  width: 0px;
-  height: 5px;
-  background: #0089c9;
-  animation-name: growLine;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-@keyframes growLine {
-  0% {
-    width: 0px;
+@media only screen and (min-width: 481px) and (max-width: 991px) {
+  .about {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgb(34, 34, 34);
+    margin-left: 0px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
   }
-  25% {
-    width: 0px;
+  @keyframes showAbout {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
-  75% {
-    width: 300px;
-  }
-  100% {
-    width: 300px;
-  }
-}
-@keyframes changeScreen {
-  0% {
+  .changePageScreen {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgb(34, 34, 34);
     left: -100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: changeScreen;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
-  25% {
-    left: 0%;
+  .page-loader {
+    width: 0px;
+    height: 5px;
+    background: #0089c9;
+    animation-name: growLine;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
-  75% {
-    left: 0%;
+  @keyframes growLine {
+    0% {
+      width: 0px;
+    }
+    25% {
+      width: 0px;
+    }
+    75% {
+      width: 300px;
+    }
+    100% {
+      width: 300px;
+    }
   }
-  100% {
-    left: 100%;
+  @keyframes changeScreen {
+    0% {
+      left: -100%;
+    }
+    25% {
+      left: 0%;
+    }
+    75% {
+      left: 0%;
+    }
+    100% {
+      left: 100%;
+    }
   }
-}
 
-.about-img {
-  -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
-  animation-name: showAbout;
-  animation-duration: 1s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-  opacity: 0;
-  
-}
+  .about-img {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+    animation-name: showAbout;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    width: 40%;
+    height: 100%;
+    background-image: url("../../dist/img/about/about.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-.about-content {
-  width: 40%;
-  animation-name: showAbout;
-  animation-duration: 1s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-  opacity: 0;
+  .about-content {
+    width: 60%;
+    animation-name: showAbout;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    margin-right: 10px;
+  }
+  .about-content h2 {
+    font-size: 44px;
+    border-bottom: 1px solid #0089c9;
+  }
 }
-.about-content h2 {
-  font-size: 44px;
-  border-bottom: 1px solid #0089c9;
+@media only screen and (max-width: 480px) {
+  .about {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgb(34, 34, 34);
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+  }
+  @keyframes showAbout {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .changePageScreen {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgb(34, 34, 34);
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: changeScreen;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  .page-loader {
+    width: 0px;
+    height: 5px;
+    background: #0089c9;
+    animation-name: growLine;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes growLine {
+    0% {
+      width: 0px;
+    }
+    25% {
+      width: 0px;
+    }
+    75% {
+      width: 300px;
+    }
+    100% {
+      width: 300px;
+    }
+  }
+  @keyframes changeScreen {
+    0% {
+      left: -100%;
+    }
+    25% {
+      left: 0%;
+    }
+    75% {
+      left: 0%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+  .about-img {
+    position: absolute;
+    animation-name: showAbout;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url("../../dist/img/about/about.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .about-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    animation-name: showAbout;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  .about-content h2 {
+    font-size: 44px;
+    border-bottom: 1px solid #0089c9;
+  }
 }
