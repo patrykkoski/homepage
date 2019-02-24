@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 import "./Portfolio.css";
 
 const portfolio = () => {
@@ -40,18 +40,18 @@ const portfolio = () => {
             alt="marekbaran"
           />
         </a>
-        <a href="/portfolio" disabled>
+        <NavLink to="/portfolio" disabled>
           <p>Project will appear soon...</p>
-        </a>
-        <a href="/portfolio" disabled>
+        </NavLink>
+        <NavLink to="/portfolio" disabled>
           <p>Project will appear soon...</p>
-        </a>
-        <a href="/portfolio" disabled>
+        </NavLink>
+        <NavLink to="/portfolio" disabled>
           <p>Project will appear soon...</p>
-        </a>
-        <a href="/portfolio" disabled>
+        </NavLink>
+        <NavLink to="/portfolio" disabled>
           <p>Project will appear soon...</p>
-        </a>
+        </NavLink>
       </div>
     </div>
   );
