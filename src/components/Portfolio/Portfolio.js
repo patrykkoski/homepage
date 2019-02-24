@@ -40,16 +40,16 @@ const portfolio = () => {
             alt="marekbaran"
           />
         </a>
-        <a href="/" disabled>
+        <a href="/portfolio" disabled>
           <p>Project will appear soon...</p>
         </a>
-        <a href="/" disabled>
+        <a href="/portfolio" disabled>
           <p>Project will appear soon...</p>
         </a>
-        <a href="/" disabled>
+        <a href="/portfolio" disabled>
           <p>Project will appear soon...</p>
         </a>
-        <a href="/" disabled>
+        <a href="/portfolio" disabled>
           <p>Project will appear soon...</p>
         </a>
       </div>
