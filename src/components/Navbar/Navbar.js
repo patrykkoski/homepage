@@ -63,7 +63,7 @@ const navbar = () => {
             </NavLink>
           </li>
         </ul>
-        <a href="/" className="linked-in-icon">
+        <a target="_blank" href="https://www.linkedin.com/in/patryk-koski-a7139616b/" className="linked-in-icon">
           <span className="fab fa-linkedin" />
         </a>
       </nav>

@@ -15,13 +15,16 @@ const contact = () => {
         <h3>kontakt@patrykkoski.pl</h3>
         <h3>Warsaw</h3>
         <div className="socials">
-          <a href="/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/patryk-koski-a7139616b/"
+          >
             <img
               src={require("../../dist/img/contact/li.png")}
               alt="linkedin"
             />
           </a>
-          <a href="/">
+          <a target="_blank" href="https://github.com/patrykkoski">
             <img src={require("../../dist/img/contact/gh.png")} alt="github" />
           </a>
         </div>

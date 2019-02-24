@@ -34,8 +34,11 @@ const portfolio = () => {
             alt="Synergy"
           />
         </a>
-        <a href="/" disabled>
-          <p>Project will appear soon...</p>
+        <a href="http://www.marekbaran.pl" target="_blank">
+          <img
+            src={require("../../dist/img/portfolio/marekbaran.png")}
+            alt="marekbaran"
+          />
         </a>
         <a href="/" disabled>
           <p>Project will appear soon...</p>
